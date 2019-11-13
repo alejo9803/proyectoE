@@ -25,13 +25,13 @@ SECRET_KEY = 'qrp=dky-@1wqdipr!&wcybz0mu^18f91kowoqkm)k%@k#h%epy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['back-predictmind.herokuapp.com']
+ALLOWED_HOSTS = ['predictmind.herokuapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'software_app',
+ 
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'software_app',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
