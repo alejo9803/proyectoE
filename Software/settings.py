@@ -25,7 +25,7 @@ SECRET_KEY = 'qrp=dky-@1wqdipr!&wcybz0mu^18f91kowoqkm)k%@k#h%epy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['proyectopredictmind.herokuapp.com']
 
 
 # Application definition
